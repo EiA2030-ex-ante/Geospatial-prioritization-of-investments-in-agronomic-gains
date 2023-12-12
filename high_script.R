@@ -9,7 +9,7 @@ high_potential_yield <- rast("high_Potential_yield_cereals_stacked.tif")
 high_potential_yield
 plot(high_potential_yield)
 
-#read potential and actual yld datasets (stacked)
+#read actual yld datasets (stacked)
 actual_yield <- rast("Actual_yield_cereals_stacked.tif")
 actual_yield
 plot(actual_yield)
